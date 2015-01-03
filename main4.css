@@ -1,0 +1,296 @@
+
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+
+body {
+            
+            background-color: #428bca;
+        }
+
+
+#footer {
+
+  text-shadow: 0 -1px 0 rgba(0,0,0,.25);
+  color: #F7F4F4;
+  left: 0;
+  right: 0;
+  z-index: 1030;
+  
+  width: 100%;
+border-color: #080808;
+border-radius: 0;
+border-width: 1px 0 0;
+  bottom: 0;
+  margin-bottom: 5px; 
+  padding: 20px;
+}
+
+/* Lastly, apply responsive CSS fixes as necessary */
+@media (max-width: 767px) {
+#footer {
+  margin-left: -20px;
+  margin-right: -20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 0;
+}
+}
+
+.container-fluid {
+/*background-image: -webkit-linear-gradient(top,rgba(23, 22, 22, 0.45) 0,rgba(23, 22, 22, 0) 100%);
+background-color: #428bca;*/
+width: 100%;
+padding: 20px;
+}
+
+
+
+/*
+.embed-responsive .embed-responsive-item, .embed-responsive iframe, .embed-responsive embed, .embed-responsive object, .embed-responsive video {
+position: absolute;
+top: 0;
+bottom: 0;
+left: 0;
+width: 100%;
+height: 100%;
+border: 0;
+}
+
+.embed-responsive {
+position: relative;
+display: block;
+width: 100%;
+height: 100%;
+padding: 0;
+overflow: hidden;
+}
+
+.embed-responsive.embed-responsive-16by9 {
+padding-bottom: 56.25%;
+}*/
+
+.responsive-video {
+position: relative;
+padding-bottom: 56.25%;
+padding-top: 60px; overflow: hidden;
+}
+
+
+.responsive-video iframe,
+.responsive-video object,
+.responsive-video embed {
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+}
+
+
+
+
+.navbar-right .dropdown-menu {
+right: 0;
+left: auto;
+}
+
+
+.img-portfolio {
+    margin-bottom: 30px;
+}
+
+.img-hover:hover {
+    opacity: 0.8;
+}
+
+
+/* 404 Page Styles */
+
+.error-404 {
+    font-size: 100px;
+}
+
+
+/* Other Responsive Styles */
+
+@media(max-width:991px) {
+    .customer-img,
+    .img-related {
+        margin-bottom: 30px;
+    }
+}
+
+@media(max-width:767px) {
+    .img-portfolio {
+        margin-bottom: 15px;
+    }
+
+    header.carousel .carousel {
+        height: 70%;
+    }
+}
+
+.scheme2 {
+ color: whitesmoke;
+ font-weight: bolder;
+}
+
+
+#scheme2 {
+ color: whitesmoke;
+ font-weight: bolder;
+}
+
+.scheme3 {
+  color: #777;
+ font-weight: bolder;
+}
+
+#scheme3 {
+  color: #777;
+ font-weight: bolder;
+}
+
+
+/* Custom hand pointers for Carousel*/
+ .carousel-control .fa-hand-o-left {
+position: absolute;
+top: 50%;
+z-index: 5;
+display: inline-block;
+width: 30px;
+height: 30px;
+margin-top: -15px;
+margin-left: -15px;
+font-size: 30px;
+} 
+
+.carousel-control .fa-hand-o-right {
+position: absolute;
+top: 50%;
+z-index: 5;
+display: inline-block;
+width: 30px;
+height: 30px;
+margin-top: -15px;
+margin-left: -15px;
+font-size: 30px;
+}
+
+
+ 
+a:hover {
+    color: whitesmoke;
+    text-shadow: -1px 1px 5px black, 1px -1px 5px whitesmoke;
+}
+
+// General Form
+.formbox-area {
+max-width: 400px;
+padding: 40px 40px;
+}
+
+.formbox {
+margin-bottom: 20px;
+}
+
+.formbox {
+//background-color: #9999ff;
+background-image: -webkit-linear-gradient(top,rgba(23, 22, 22, 0.45) 0,rgba(23, 22, 22, 0) 100%);
+padding: 20px 25px 30px;
+margin: 0 auto 25px;
+max-width: 500px;
+-moz-border-radius: 20px;
+-webkit-border-radius: 20px;
+border-radius: 20px;
+-moz-box-shadow: 2px 2px 2px 3px rgba(0, 0, 0, 0.3);
+-webkit-box-shadow: 2px 2px 2px 3px rgba(0, 0, 0, 0.3);
+box-shadow: 2px 2px 2px 3px rgba(0, 0, 0, 0.3);
+}
+
+.formbox_register {
+//background-color: #9999ff;
+background-image: -webkit-linear-gradient(top,rgba(23, 22, 22, 0.45) 0,rgba(23, 22, 22, 0) 100%);
+padding: 20px 25px 30px;
+margin: 0 auto 25px;
+//max-width: 500px;
+-moz-border-radius: 20px;
+-webkit-border-radius: 20px;
+border-radius: 20px;
+-moz-box-shadow: 2px 2px 2px 3px rgba(0, 0, 0, 0.3);
+-webkit-box-shadow: 2px 2px 2px 3px rgba(0, 0, 0, 0.3);
+box-shadow: 2px 2px 2px 3px rgba(0, 0, 0, 0.3);
+}
+
+
+form {
+display: block;
+margin-top: 0em;
+}
+
+  .formbox-area .profile-img {
+  width: 96px;
+  height: 96px;
+  margin: 0 auto 10px;
+  display: block;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+  }
+  .formbox-area .profile-name {
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  margin: 10px 0 0;
+  min-height: 1em;
+  }
+  .formbox-area .profile-email {
+  font-size: 16px;
+  text-align: center;
+  margin: 10px 0 20px 0;
+  min-height: 1em;
+  }
+  .formbox-area input[type=email],
+  .formbox-area input[type=password],
+  .formbox-area input[type=text],
+  .formbox-area input[type=submit] {
+  width: 100%;
+  display: block;
+  margin-bottom: 10px;
+  z-index: 1;
+  position: relative;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  }
+  .formbox-area #Email,
+  .formbox-area #Passwd,
+  .formbox-area .captcha {
+  direction: ltr;
+  height: 44px;
+  font-size: 16px;
+  }
+  .formbox-area #Email + .stacked-label {
+  margin-top: 15px;
+  }
+  .formbox-area #reauthEmail {
+  display: block;
+  margin-bottom: 10px;
+  line-height: 36px;
+  padding: 0 8px;
+  font-size: 15px;
+  color: #404040;
+  line-height: 2;
+  margin-bottom: 10px;
+  font-size: 14px;
+  text-align: center;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  }
